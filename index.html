@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio personal de Jose Manuel Gallardo Layza, estudiante de Ingeniería Informática. Desarrollo web, bases de datos y proyectos de software.">
+    <meta name="author" content="Jose Manuel Gallardo Layza">
+    <meta name="theme-color" content="#0a0a1a">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jose Manuel Gallardo Layza — Portafolio">
+    <meta property="og:description"
+        content="Estudiante de Ingeniería Informática. Desarrollo web, bases de datos y proyectos de software.">
+    <meta property="og:image" content="img/logo.webp">
+    <meta property="og:locale" content="es_PE">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jose Manuel Gallardo Layza — Portafolio">
+    <meta name="twitter:description"
+        content="Estudiante de Ingeniería Informática. Desarrollo web, bases de datos y proyectos de software.">
+    <meta name="twitter:image" content="img/logo.webp">
+
+    <title>Jose Manuel Gallardo Layza | Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="icon" href="/img/lgo.ico" type="image/x-icon">
+
+</head>
+
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-logo">GL.dev</a>
+        <div class="nav-right">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button type="button" class="theme-toggle" id="themeToggle" title="Cambiar tema"
+                aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span class="toggle-ball"></span>
+            </button>
+        </div>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false"
+            aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-circle hero-badge-dot"></i>
+                Disponible para proyectos
+            </div>
+            <h1>Hola, soy<br><span class="gradient-text">Jose Manuel<br>Gallardo Layza</span></h1>
+            <h2>Estudiante de Ingeniería Informática — 9no Ciclo</h2>
+            <p>Apasionado por el desarrollo de software, la resolución de problemas y la creación de soluciones
+                tecnológicas innovadoras.</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary"><i class="fas fa-rocket"></i> Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contáctame</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-avatar">👨‍💻</div>
+            <div class="hero-float-card card-1"><i class="fas fa-code"></i> Dev </div>
+            <div class="hero-float-card card-2"><i class="fas fa-graduation-cap"></i> 9no Ciclo</div>
+        </div>
+    </section>
+
+    <!-- ========== SOBRE MÍ ========== -->
+    <section class="bg-alt" id="sobre-mi">
+        <div class="section-header reveal">
+            <div class="section-tag">Conóceme</div>
+            <h2>Sobre <span>Mí</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>Soy <strong>Jose Manuel Gallardo Layza</strong>, estudiante de <strong class="hl">Ingeniería
+                        Informática</strong> cursando el 9no ciclo. Me apasiona el desarrollo de software, las bases de
+                    datos, el hacking etico y la tecnología.</p>
+                <p>He desarrollado proyectos académicos y personales que me han permitido fortalecer mis habilidades en
+                    diferentes lenguajes y tecnologías. Siempre busco aprender y mejorar como profesional.</p>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Proyectos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Tecnologías</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Certificaciones</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-info-grid reveal">
+                <div class="info-item">
+                    <div class="label">Nombre</div>
+                    <div class="value">Jose Manuel Gallardo Layza</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Carrera</div>
+                    <div class="value">Ingeniería Informática</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Ciclo</div>
+                    <div class="value">9no Ciclo</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Email</div>
+                    <div class="value">bmdgallardo@gmail.com</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Ubicación</div>
+                    <div class="value">Perú 🇵🇪</div>
+                </div>
+                <div class="info-item">
+                    <div class="label">Idiomas</div>
+                    <div class="value">Español / Inglés(Basico)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills">
+        <div class="section-header reveal">
+            <div class="section-tag">Habilidades</div>
+            <h2>Mis <span>Skills</span></h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="skills-container">
+            <!-- FILTROS POR CATEGORÍA -->
+            <div class="skill-filters reveal">
+                <button type="button" class="filter-btn active" data-filter="todos">
+                    <i class="fas fa-th-large"></i> Todos
+                </button>
+                <button type="button" class="filter-btn" data-filter="frontend">
+                    <i class="fas fa-palette"></i> Frontend
+                </button>
+                <button type="button" class="filter-btn" data-filter="backend">
+                    <i class="fas fa-server"></i> Backend
+                </button>
+                <button type="button" class="filter-btn" data-filter="database">
+                    <i class="fas fa-database"></i> Base de Datos
+                </button>
+                <button type="button" class="filter-btn" data-filter="devops">
+                    <i class="fas fa-tools"></i> DevOps & Tools
+                </button>
+            </div>
+
+            <!-- ===== FRONTEND ===== -->
+            <div class="skill-category reveal" data-cat="frontend">
+                <div class="skill-category-header">
+                    <div class="cat-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div>
+                        <h3>Frontend</h3>
+                        <span>Interfaces y experiencia de usuario</span>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                    <!-- HTML5 -->
+                    <div class="skill-card" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-html5"><i
+                                        class="fab fa-html5"></i></div>
+                                <span class="skill-name">HTML5</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">Semántica, accesibilidad, formularios avanzados,.</p>
+                    </div>
+                    <!-- CSS3 -->
+                    <div class="skill-card" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-css3"><i
+                                        class="fab fa-css3-alt"></i></div>
+                                <span class="skill-name">CSS3</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">Flexbox, Grid, responsive.</p>
+                    </div>
+                    <!-- JavaScript -->
+                    <div class="skill-card" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-js"><i
+                                        class="fab fa-js-square"></i></div>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">ES6+, DOM, APIs REST, async/await, fetch.</p>
+                    </div>
+
+                    <!-- React -->
+                    <div class="skill-card skill-hidden" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-react"><i
+                                        class="fab fa-react"></i></div>
+                                <span class="skill-name">React</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">Componentes, hooks, estado, props, React Router.</p>
+                    </div>
+
+                    <!-- Bootstrap  -->
+                    <div class="skill-card skill-hidden" data-level="intermedio">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-bootstrap"><i
+                                        class="fab fa-bootstrap"></i></div>
+                                <span class="skill-name">Bootstrap</span>
+                            </div>
+                            <span class="skill-level-badge level-intermedio">Intermedio</span>
+                        </div>
+
+                        <p class="skill-description">Grid system, componentes, utilidades responsive.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ===== BACKEND ===== -->
+            <div class="skill-category reveal" data-cat="backend">
+                <div class="skill-category-header">
+                    <div class="cat-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div>
+                        <h3>Backend</h3>
+                        <span>Lógica del servidor y APIs</span>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                    <!-- Java -->
+                    <div class="skill-card" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-java"><i
+                                        class="fab fa-java"></i></div>
+                                <span class="skill-name">Java</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">POO básico, patrones de diseño.</p>
+                    </div>
+                    <!-- Python -->
+                    <div class="skill-card" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-python"><i
+                                        class="fab fa-python"></i></div>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">Django, automatización, scripts.</p>
+                    </div>
+                    <!-- PHP -->
+                    <div class="skill-card skill-hidden" data-level="intermedio">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-php"><i
+                                        class="fab fa-php"></i></div>
+                                <span class="skill-name">PHP</span>
+                            </div>
+                            <span class="skill-level-badge level-intermedio">Intermedio</span>
+                        </div>
+
+                        <p class="skill-description">MVC, Laravel básico, APIs REST, sesiones, autenticación.</p>
+                    </div>
+
+                    <!-- Node.js -->
+                    <div class="skill-card skill-hidden" data-level="intermedio">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-node"><i
+                                        class="fab fa-node-js"></i></div>
+                                <span class="skill-name">Node.js</span>
+                            </div>
+                            <span class="skill-level-badge level-intermedio">Intermedio</span>
+                        </div>
+
+                        <p class="skill-description">Express.js, APIs REST, middleware, npm.</p>
+                    </div>
+
+                    <!-- C/C++ -->
+                    <div class="skill-card skill-hidden" data-level="intermedio">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-cpp"><i
+                                        class="fas fa-code"></i></div>
+                                <span class="skill-name">C / C++</span>
+                            </div>
+                            <span class="skill-level-badge level-intermedio">Intermedio</span>
+                        </div>
+
+                        <p class="skill-description">Algoritmos, punteros, estructuras de datos.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ===== BASE DE DATOS ===== -->
+            <div class="skill-category reveal" data-cat="database">
+                <div class="skill-category-header">
+                    <div class="cat-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div>
+                        <h3>Base de Datos</h3>
+                        <span>Gestión y modelado de datos</span>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                    <!-- SQL -->
+                    <div class="skill-card" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-sql"><i
+                                        class="fas fa-database"></i></div>
+                                <span class="skill-name">SQL</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">Joins, vistas.</p>
+                    </div>
+                    <!-- PostgreSQL -->
+                    <div class="skill-card skill-hidden" data-level="intermedio">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-postgres"><i
+                                        class="fas fa-database"></i></div>
+                                <span class="skill-name">PostgreSQL</span>
+                            </div>
+                            <span class="skill-level-badge level-intermedio">Intermedio</span>
+                        </div>
+
+                        <p class="skill-description">Consultas avanzadas, funciones, modelado relacional.</p>
+                    </div>
+
+                    <!-- MongoDB   -->
+                    <div class="skill-card skill-hidden" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-mongodb"><i
+                                        class="fas fa-leaf"></i></div>
+                                <span class="skill-name">MongoDB</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">CRUD, colecciones, documentos, Mongoose.</p>
+                    </div>
+
+                    <!-- Firebase-->
+                    <div class="skill-card skill-hidden" data-level="intermedio">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-firebase"><i
+                                        class="fas fa-fire"></i></div>
+                                <span class="skill-name">Firebase</span>
+                            </div>
+                            <span class="skill-level-badge level-intermedio">Intermedio</span>
+                        </div>
+
+                        <p class="skill-description">Firestore, Auth, hosting, realtime database.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ===== DEVOPS & HERRAMIENTAS ===== -->
+            <div class="skill-category reveal" data-cat="devops">
+                <div class="skill-category-header">
+                    <div class="cat-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div>
+                        <h3>DevOps & Herramientas</h3>
+                        <span>Control de versiones, despliegue y diseño</span>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                    <!-- Git -->
+                    <div class="skill-card" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-git"><i
+                                        class="fab fa-git-alt"></i></div>
+                                <span class="skill-name">Git & GitHub</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">Branches, merge, PR, gitflow, colaboración.</p>
+                    </div>
+                    <!-- Docker -->
+                    <div class="skill-card skill-hidden" data-level="intermedio">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-docker"><i
+                                        class="fab fa-docker"></i></div>
+                                <span class="skill-name">Docker</span>
+                            </div>
+                            <span class="skill-level-badge level-intermedio">Intermedio</span>
+                        </div>
+
+                        <p class="skill-description">Contenedores, imágenes, Docker Compose.</p>
+                    </div>
+
+                    <!-- Linux -->
+                    <div class="skill-card" data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-linux"><i
+                                        class="fab fa-linux"></i></div>
+                                <span class="skill-name">Linux</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">Terminal, bash scripting, paquetes, servidores.</p>
+                    </div>
+                    <!-- Figma -->
+                    <div class="skill-card skill-hidden  " data-level="basico">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-figma"><i
+                                        class="fab fa-figma"></i></div>
+                                <span class="skill-name">Figma</span>
+                            </div>
+                            <span class="skill-level-badge level-basico">Básico</span>
+                        </div>
+
+                        <p class="skill-description">Wireframes, prototipos, diseño de UI básico.</p>
+                    </div>
+
+                    <!-- VS Code -->
+                    <div class="skill-card skill-hidden" data-level="intermedio">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-wrapper">
+                                <div class="skill-icon c-vscode"><i
+                                        class="fas fa-laptop-code"></i></div>
+                                <span class="skill-name">VS Code</span>
+                            </div>
+                            <span class="skill-level-badge level-intermedio">Intermedio</span>
+                        </div>
+
+                        <p class="skill-description">Extensiones, shortcuts, debugging, terminal integrado.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== TECNOLOGÍAS ========== -->
+    <section class="bg-alt">
+        <div class="section-header reveal">
+            <div class="section-tag">Stack</div>
+            <h2>Tecnologías que <span>uso</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="tools-grid reveal">
+
+            <div class="tool-item"><i class="fab fa-python c-python"></i><span>Python</span></div>
+            <div class="tool-item"><i class="fab fa-js-square c-js"></i><span>JavaScript</span></div>
+            <div class="tool-item"><i class="fab fa-html5 c-html5"></i><span>HTML5</span></div>
+            <div class="tool-item"><i class="fab fa-css3-alt c-css3"></i><span>CSS3</span></div>
+            <div class="tool-item"><i class="fas fa-database c-sql"></i><span>SQL</span></div>
+            <div class="tool-item"><i class="fab fa-github c-github"></i><span>GitHub</span></div>
+            <div class="tool-item"><i class="fab fa-linux c-linux"></i><span>Linux</span></div>
+            <!--<div class="tool-item"><i class="fab fa-react c-react"></i><span>React</span></div>-->
+            <!--<div class="tool-item"><i class="fab fa-node-js c-node"></i><span>Node.js</span></div>-->
+            <!--<div class="tool-item"><i class="fab fa-php c-php"></i><span>PHP</span></div>-->
+            <!--<div class="tool-item"><i class="fas fa-database c-postgres"></i><span>PostgreSQL</span></div>-->
+            <!--<div class="tool-item"><i class="fab fa-git-alt c-git"></i><span>Git</span></div>-->
+            <!--<div class="tool-item"><i class="fab fa-docker c-docker"></i><span>Docker</span></div>-->
+            <!--<div class="tool-item"><i class="fab fa-bootstrap c-bootstrap"></i><span>Bootstrap</span></div>-->
+            <!--<div class="tool-item"><i class="fab fa-figma c-figma"></i><span>Figma</span></div>-->
+        </div>
+    </section>
+
+    <!-- ========== PROYECTOS ========== -->
+    <section id="proyectos">
+        <div class="section-header reveal">
+            <div class="section-tag">Portafolio</div>
+            <h2>Mis <span>Proyectos</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-image-bg project-image-bg--perfumes">🛒</div>
+                    <div class="project-overlay">
+                        <a href="https://perfumeria-web.netlify.app" title="Demo" target="_blank"
+                            rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/medianoche00/perfmeria-web" title="Código" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Pagina web de Venta de Perfumes</h3>
+                    <p>Sistema web completo para la venta de perfumes, con agregacion de catalogo, y redireccionamiento
+                        a whatsaap.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">html</span>
+                        <span class="project-tag">css</span>
+                        <span class="project-tag">javascript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCACIÓN & CERTIFICACIONES ========== -->
+    <section class="bg-alt" id="educacion">
+        <div class="section-header reveal">
+            <div class="section-tag">Formación</div>
+            <h2>Educación & <span>Certificaciones</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="edu-cert-grid">
+            <!-- ESTUDIOS -->
+            <div class="edu-cert-column reveal">
+                <h3><i class="fas fa-graduation-cap"></i> Estudios</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 — Presente</div>
+                        <h4>Ingeniería Informática</h4>
+                        <h5>Universidad Nacional de Piura — 9no Ciclo</h5>
+                        <p>Desarrollo de software, bases de datos, redes e IA.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Agosto de 2025 — Noviembre de 2025</div>
+                        <h4>Practicas Pre Profesionales</h4>
+                        <h5>Universidad Nacional de Piura — OTI</h5>
+                        <p> Area de redes, soporte técnico, mantenimiento de equipos.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2016 — 2020</div>
+                        <h4>Educación Secundaria</h4>
+                        <h5>I.E. Manuel Scorza-Castilla</h5>
+                        <p>Formación con orientación en ciencias y matemáticas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CERTIFICACIONES -->
+            <div class="edu-cert-column reveal">
+                <h3><i class="fas fa-certificate"></i> Certificaciones</h3>
+                <div class="cert-list">
+                    <div class="cert-card">
+                        <div class="cert-icon c-python"><i
+                                class="fab fa-python"></i></div>
+                        <div class="cert-info">
+                            <h4>Python Basico</h4>
+                            <div class="cert-meta">
+                                <span><i class="fas fa-building"></i> Udemy</span>
+                                <span><i class="fas fa-calendar"></i> 2026</span>
+                                <span><i class="fas fa-clock"></i> 5 hrs</span>
+                            </div>
+                            <span class="cert-badge">✅ Completado</span>
+                            <a href="#" class="cert-link"><i class="fas fa-external-link-alt"></i> Ver credencial</a>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon c-web"><i
+                                class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Desarrollo Web con HTML, CSS y JavaScript desde Cero</h4>
+                            <div class="cert-meta">
+                                <span><i class="fas fa-building"></i> Udemy</span>
+                                <span><i class="fas fa-calendar"></i> 2026</span>
+                                <span><i class="fas fa-clock"></i> 3.5 hrs</span>
+                            </div>
+                            <span class="cert-badge">✅ Completado</span>
+                            <a href="#" class="cert-link"><i class="fas fa-external-link-alt"></i> Ver credencial</a>
+                        </div>
+                    </div>
+                    <div class="cert-card skill-hidden">
+                        <div class="cert-icon c-js"><i
+                                class="fab fa-js-square"></i></div>
+                        <div class="cert-info">
+                            <h4>JavaScript Moderno - Guía Definitiva</h4>
+                            <div class="cert-meta">
+                                <span><i class="fas fa-building"></i> Platzi</span>
+                                <span><i class="fas fa-calendar"></i> 2024</span>
+                                <span><i class="fas fa-clock"></i> 40 hrs</span>
+                            </div>
+                            <span class="cert-badge">✅ Completado</span>
+                            <a href="#" class="cert-link"><i class="fas fa-external-link-alt"></i> Ver credencial</a>
+                        </div>
+                    </div>
+                    <div class="cert-card skill-hidden">
+                        <div class="cert-icon c-sql"><i
+                                class="fas fa-database"></i></div>
+                        <div class="cert-info">
+                            <h4>SQL - Bases de Datos</h4>
+                            <div class="cert-meta">
+                                <span><i class="fas fa-building"></i> Coursera</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                                <span><i class="fas fa-clock"></i> 30 hrs</span>
+                            </div>
+                            <span class="cert-badge">✅ Completado</span>
+                            <a href="#" class="cert-link"><i class="fas fa-external-link-alt"></i> Ver credencial</a>
+                        </div>
+                    </div>
+                    <div class="cert-card skill-hidden">
+                        <div class="cert-icon c-git"><i
+                                class="fab fa-git-alt"></i></div>
+                        <div class="cert-info">
+                            <h4>Git & GitHub Profesional</h4>
+                            <div class="cert-meta">
+                                <span><i class="fas fa-building"></i> Udemy</span>
+                                <span><i class="fas fa-calendar"></i> 2022</span>
+                                <span><i class="fas fa-clock"></i> 15 hrs</span>
+                            </div>
+                            <span class="cert-badge">✅ Completado</span>
+                            <a href="#" class="cert-link"><i class="fas fa-external-link-alt"></i> Ver credencial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section id="contacto">
+        <div class="section-header reveal">
+            <div class="section-tag">Hablemos</div>
+            <h2>Contác<span>tame</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info reveal">
+                <p>¿Tienes un proyecto en mente o quieres trabajar juntos? No dudes en contactarme. Estoy abierto a
+                    nuevas oportunidades.</p>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-item-text">
+                        <div class="label">Email</div>
+                        <div class="value"><a href="mailto:bmdgallardo@gmail.com">bmdgallardo@gmail.com</a></div>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="contact-item-text">
+                        <div class="label">Teléfono</div>
+                        <div class="value">+51 923 580 692</div>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-item-text">
+                        <div class="label">Ubicación</div>
+                        <div class="value">Perú 🇵🇪</div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/medianoche00"
+                        class="social-link" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a target="_blank" rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/jose-manuel-gallardo-layza-570b6b338/" class="social-link"
+                        title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/manuell.gl/?hl=es"
+                        class="social-link" title="Instagram" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <p>© 2026 <span>Jose Manuel Gallardo Layza</span> — Todos los derechos reservados</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+
+
+</body>
+
+</html>
